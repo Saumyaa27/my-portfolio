@@ -503,8 +503,8 @@ main {
   justify-content: center;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3vh;
-  padding: 1vh;
+  grid-gap: 4vh;
+  padding: 4vh;
   margin: 0 auto;
   width: max-content;
 }
