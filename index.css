@@ -159,7 +159,7 @@ overflow:hidden;
 transition:width .2s linear;
 -webkit-transform:translateZ(0) scale(1,1);
 box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
-opacity:0.8;
+opacity:0.9;
 z-index: 2;
 }
 
@@ -300,7 +300,7 @@ height: 100%;
 }
 .text {
   
-  font-size: 10vh;
+  font-size: 9vh;
   letter-spacing: 3px;
   color: #19f6e8;
   top: -48px;
@@ -349,49 +349,7 @@ height: 100%;
 }
 
 
-.blockquote-wrapper {
-   display: block;
-   height: 32vh;
-   padding: 0 10px;
-   margin-top: 3vh;
-   
-}
 
-/* Blockquote main style */
-.blockquote {
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #ffffff;
-    padding: 10px 0;
-    width: 90%;
-    max-width: 460px;
-    z-index: -1;
-    margin: 80px auto;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
-}
-
-/* Blockquote header */
-.blockquote h2 {
-    position: relative;
-    color: #FFFFFF;
-    font-size: 4vw;
-    font-weight: 800;
-    line-height: 1;
-    margin: 0;
-}
-
-/* Blockquote right double quotes */
-.blockquote:after {
-    position: absolute;
-    content: "”";
-    color: rgba(255, 255, 255, 1);
-    font-size: 15vh;
-    line-height: 0;
-    bottom: -30px;
-    right: 28px;
-}
 
 /* increase header size after 600px */
 @media all and (min-width: 600px) {
@@ -401,17 +359,6 @@ height: 100%;
 
 }
 
-/* Blockquote subheader */
-.blockquote h3 {
-    position: relative;
-    color: #19f6e8;
-    font-size: 1.5vw;
-    font-weight: normal;
-    line-height: 1;
-    margin: 0;
-    padding-top: 10px;
-    z-index: 1;
-}
 
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 
@@ -591,7 +538,7 @@ main {
   background: #0b262b;
   width: 200%;
   height: 200%;
-  color:white;
+
 
 }
 
